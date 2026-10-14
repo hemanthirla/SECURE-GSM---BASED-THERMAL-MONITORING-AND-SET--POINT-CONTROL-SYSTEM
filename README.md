@@ -252,3 +252,5 @@ It enables users to monitor environmental conditions, receive fault notification
 
 `LPC2148` `Embedded C` `GSM` `SMS Alert` `DHT11` `Temperature Monitoring` `Humidity Monitoring` `EEPROM` `UART Interrupt` `I2C` `Keil` `Flash Magic` `Industrial Automation` `Embedded Systems`
 
+# AUTHOR
+IRLA HEMANTH KUMAR.
