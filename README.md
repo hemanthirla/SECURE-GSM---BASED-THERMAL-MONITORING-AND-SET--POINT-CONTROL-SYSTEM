@@ -48,13 +48,13 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 3.Flash Magic.
 
 # System Architecture
-The LPC2148 acts as the central controller and coordinates all peripherals.\
-- **DHT11 → LPC2148:** Provides temperature and humidity readings.\
-- **LPC2148 → LCD:** Displays sensor values and system status.\
-- **LPC2148 ↔ AT24C256:** Reads and writes configuration data using I²C.\
-- **Keypad → LPC2148:** Supplies local configuration commands.\
-- **LPC2148 ↔ GSM module:** Exchanges SMS data through UART.\
-- **RTC → LPC2148:** Provides the timestamp for fault notifications.\
+The LPC2148 acts as the central controller and coordinates all peripherals.
+- **DHT11 → LPC2148:** Provides temperature and humidity readings.
+- **LPC2148 → LCD:** Displays sensor values and system status.
+- **LPC2148 ↔ AT24C256:** Reads and writes configuration data using I²C.
+- **Keypad → LPC2148:** Supplies local configuration commands.
+- **LPC2148 ↔ GSM module:** Exchanges SMS data through UART.
+- **RTC → LPC2148:** Provides the timestamp for fault notifications.
 - **LPC2148 → LEDs / Buzzer:** Indicates abnormal conditions and authentication failures.
 
 ## ⚙️ Working Principle
@@ -115,36 +115,35 @@ The controller reads the current sensor values and sends the information to the 
 # Flow chart
 Secure-GSM-Thermal-Monitoring/
 │
-├── README.md
+├── README.md\
 ├── src/
-│   ├── projectmain.c
-│   ├── lcd.c
-│   ├── lcd.h
-│   ├── delay.c
-│   ├── delay.h
-│   ├── keypad.c
-│   ├── keypad.h
-│   ├── i2c.c
-│   ├── i2c.h
-│   ├── uart.c
-│   ├── uart.h
-│   ├── adc.c
-│   └── adc.h
+│   ├── projectmain.c\
+│   ├── lcd.c\
+│   ├── lcd.h\
+│   ├── delay.c\
+│   ├── delay.h\
+│   ├── keypad.c\
+│   ├── keypad.h\
+│   ├── i2c.c\
+│   ├── i2c.h\
+│   ├── uart.c\
+│   ├── uart.h\
+│   ├── adc.c\
+│   └── adc.h\
 │
 ├── drivers/
-│   └── dht11.c
+│   └── dht11.c\
 │
 ├── docs/
-│   ├── block-diagram.png
-│   ├── flowchart.png
-│   └── circuit-diagram.png
+│   ├── block-diagram.png\
+│   ├── flowchart.png\
+│   └── circuit-diagram.png\
 │
 ├── screenshots/
-│   ├── lcd-output.png
-│   └── sms-alert.png
+│   ├── lcd-output.png\
+│   └── sms-alert.png\
 │
 └── LICENSE
-
 
 ## 📟 Expected Output:
 
