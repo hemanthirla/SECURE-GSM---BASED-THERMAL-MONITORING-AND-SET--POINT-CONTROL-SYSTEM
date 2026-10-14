@@ -147,9 +147,9 @@ Secure-GSM-Thermal-Monitoring/
 
 ## 📟 Expected Output:
 
+<img width="990" height="1600" alt="WhatsApp Image 2026-10-14 at 8 55 06 PM" src="https://github.com/user-attachments/assets/fccdde60-0c5c-4b6e-a0bd-37ca2072f0ed" />
 
 ### Normal Condition
-
 Example configuration:
 
 - Temperature set-point: 38°C
