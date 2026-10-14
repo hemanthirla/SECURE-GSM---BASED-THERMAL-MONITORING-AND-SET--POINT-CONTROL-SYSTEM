@@ -29,26 +29,26 @@ Secure GSM-Based Thermal Monitoring and Set-Point Control System using LPC2148 (
 12. **Timestamped Alerts:** Uses the RTC to associate fault notifications with the time of occurrence.
 
 # Hardware Requirements:
-1.LPC2148
-2.LCD
-3.AT24C256
-4.DTH11
-5.4X4 MATRIX KEYPAD
-6.SWITCH
-7.LED’S
-8.GSM MODULE (M660A)
+1.LPC2148.\
+2.LCD\
+3.AT24C256\
+4.DTH11\
+5.4X4 MATRIX KEYPAD\
+6.SWITCH\
+7.LED’S\
+8.GSM MODULE (M660A)\
 9.DB-9 CABLE/USB-UART CONVERTER
 
 # SOFTWARE REQUIREMENTS:
-1.KEIL C Compiler
-2.PROGRAMMING IN EMBEDDED C
+1.KEIL C Compiler\
+2.PROGRAMMING IN EMBEDDED C\
 3.Flash Magic.
 
 ## 🛠️ Hardware Requirements
 
  Component                              Purpose 
  
-| LPC2148 microcontroller              Main processing and control unit |
+| LPC2148 microcontroller|              |Main processing and control unit |
 | DHT11 sensor                         Temperature and humidity measurement |
 | LCD |                                Displays sensor readings, menus, and status |
 | AT24C256 EEPROM                      Stores set-points, password, and mobile number |
